@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -20,13 +21,23 @@ contributor:
   schemaKey: Organization
 dateCreated: '2025-09-05T18:45:50.130726+00:00'
 description: Dandiset for OpenScope's Cross-species V2 project
+ethicsApproval: []
 id: DANDI:001568/draft
 identifier: DANDI:001568
+keywords:
+- mouse
+- ecephys
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001568/versions/draft/assets/
 name: OpenScope Cross-Species V2
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
+studyTarget:
+- mouse
 url: https://dandiarchive.org/dandiset/001568/draft
 version: draft
+wasGeneratedBy: []
