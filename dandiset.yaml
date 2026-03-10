@@ -11,8 +11,8 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: OpenScope Cross-Species V2 (2025). (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001568/draft
+citation: OpenScope Cross-Species V2 - Ephys (2026). (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/001568/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-05
   name: National Institutes of Health (NIH)
@@ -31,7 +31,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001568/versions/draft/assets/
-name: OpenScope Cross-Species V2
+name: OpenScope Cross-Species V2 - Ephys
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
