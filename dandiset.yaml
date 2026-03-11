@@ -5,7 +5,8 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
 about: []
 access:
-- schemaKey: AccessRequirements
+- embargoedUntil: '2028-03-10'
+  schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
   numberOfBytes: 0
