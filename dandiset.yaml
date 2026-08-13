@@ -9,11 +9,40 @@ access:
   schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 74936354377
+  numberOfFiles: 8
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
-citation: OpenScope Cross-Species V2 - Ephys (2026). (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001568/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - ProcessingModule
+  - LFP
+  - Units
+  - ElectricalSeries
+citation: Allen Institute OpenScope - Cross-Species V2 (Ephys) (2026). (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001568/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-05
   name: National Institutes of Health (NIH)
@@ -32,7 +61,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001568/versions/draft/assets/
-name: OpenScope Cross-Species V2 - Ephys
+name: Allen Institute OpenScope - Cross-Species V2 (Ephys)
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
